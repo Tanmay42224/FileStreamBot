@@ -7,7 +7,7 @@ load_dotenv()
 
 
 class Var(object):
-    API_ID = int(getenv('24449391'))
+    API_ID = API_ID = int(getenv('API_ID'))
     API_HASH = str(getenv('4e7e2777f84b38a483b103f8e605a891'))
     BOT_TOKEN = str(getenv('BOT_TOKEN'))
     SESSION_NAME = str(getenv('SESSION_NAME', 'Moksh_b658'))
