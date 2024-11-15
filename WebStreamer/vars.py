@@ -13,7 +13,7 @@ class Var(object):
     SESSION_NAME = str(getenv('SESSION_NAME', 'Moksh_b658'))
     SLEEP_THRESHOLD = int(getenv('SLEEP_THRESHOLD', '60'))
     WORKERS = int(getenv('WORKERS', '4'))
-    BIN_CHANNEL = int(getenv('-1002322826115'))
+    BIN_CHANNEL = BIN_CHANNEL = int(getenv('BIN_CHANNEL_ID'))
     PORT = int(getenv('PORT', 8080))
     BIND_ADRESS = str(getenv('WEB_SERVER_BIND_ADDRESS', '145.223.20.182'))
     OWNER_ID = int(getenv('OWNER_ID', '2090263808'))
